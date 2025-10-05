@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+google-cloud-aiplatform
+google-cloud-firestore
+python-dotenv
+google-generativeai
+slowapi
