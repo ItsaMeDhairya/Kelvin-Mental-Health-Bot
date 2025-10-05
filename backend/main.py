@@ -37,10 +37,10 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 origins = [
     "http://localhost:3000",
     "http://localhost:8000",
-    "kelvin-chat.vercel.app",
-    "kelvin-mental-health-bot-dhairyas-projects-15111569.vercel.app",
-    "kelvin-mental-health-bot-git-master-dhairyas-projects-15111569.vercel.app",
-    "kelvin-mental-health-hujv9bgoq-dhairyas-projects-15111569.vercel.app",
+    "https://kelvin-chat.vercel.app",
+    "https://kelvin-mental-health-bot-dhairyas-projects-15111569.vercel.app",
+    "https://kelvin-mental-health-bot-git-master-dhairyas-projects-15111569.vercel.app",
+    "https://kelvin-mental-health-hujv9bgoq-dhairyas-projects-15111569.vercel.app",
 ]
 app.add_middleware(
     CORSMiddleware,
